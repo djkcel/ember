@@ -18,7 +18,7 @@ lazy val core = project.in(file("core"))
 
 lazy val projectSettings = Seq(
   organization := "org.http4s",
-  licenses += ("MIT", url("https://opensource.org/licenses/MIT")),
+  licenses := Seq(("Apache 2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))),
 
   scalaVersion := "2.12.3",
   crossScalaVersions := Seq("2.11.11", "2.12.3"),
